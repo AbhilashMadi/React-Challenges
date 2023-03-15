@@ -25,7 +25,7 @@ react,
 flexbox
 </td>
 <td>Done</td>
-<td><a href="https://github.com/AbhilashMadi/React-Challenges.git">LIVE</a></td>
+<td><a href="https://interactive-rating-component-fm-abhi.netlify.app">LIVE</a></td>
 </tr>
 
 <tr>
