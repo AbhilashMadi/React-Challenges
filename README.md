@@ -24,8 +24,8 @@ React + Scss
 react,
 flexbox
 </td>
-<td>-</td>
-<td>-</td>
+<td>Done</td>
+<td><a href="https://github.com/AbhilashMadi/React-Challenges.git">LIVE</a></td>
 </tr>
 
 <tr>
