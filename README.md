@@ -30,8 +30,8 @@ flexbox
 
 <tr>
 <td>02</td>
-<td><a href="https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV">Results Summary Component</td>
-<td>JSON, react</td>
+<td><a href="https://www.frontendmentor.io/challenges/interactive-card-details-form-XpS8cKZDWw">Interactive card details form</td>
+<td>React Forms,Grid,Flex,Interactions</td>
 <td>-</td>
 <td>-</td>
 </tr>
