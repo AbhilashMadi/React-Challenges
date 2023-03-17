@@ -1,9 +1,9 @@
 import React from 'react'
 
-function CardForm() {
+function CardForm({formData}) {
   return (
     <div>CardForm</div>
   )
 }
 
-export default CardForm
+export default CardForm;

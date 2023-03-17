@@ -26,4 +26,24 @@ body::after{
     height: 100vh;
     z-index: -99;
     transition: $t-transition;
+
+    @media screen and (max-width: 750px){
+        background-image: url("../assets/images/bg-main-mobile.png");
+        height: 40%;
+        width: 100%;
+    }
+}
+
+.body-slider::after{
+    content: "";
+    width: 100%;
+}
+
+#root{
+    min-height: 100vh;
+    @include flex-center;
+
+    @media screen and (max-width: 750px){
+        flex-direction: column;
+    }
 }
