@@ -1,8 +1,12 @@
-import React from 'react'
+import React from "react";
+
+import {CardCredit,CardForm,CardThanks} from "./components/exports";
+import "./css/index.css";
+import "./css/App.css";
 
 function App() {
   return (
-    <div>App</div>
+    <div></div>
   )
 }
 

@@ -1,0 +1,44 @@
+
+
+/*
+** THEME
+*/
+
+$g-one:linear-gradient(hsl(249, 99%, 64%) to hsl(278, 94%, 30%));
+
+$c-two: hsl(0,100%,66%);
+$c-white: hsl(0,10%,100%);
+$c-light-grayish-violet: hsl(270,3%,87%);
+$c-dark-grayish-violet: hsl(279,6%,55%);
+$c-very-dark-violet: hsl(278,68%,11%);
+
+/*
+** FONTS
+*/
+
+$fs-body: 18px;
+
+$ff-space-grotesk: 'Space Grotesk', sans-serif;
+
+$fw-5: 500;
+
+/*
+** MIXINS
+*/
+
+@mixin flex-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+};
+
+@mixin grid-center{
+    display: grid;
+    place-items: center;
+}
+
+/*
+** TRANSITIONS
+*/
+
+$t-transition: width 0.35s ease-in-out, height 0.35s ease-in-out;

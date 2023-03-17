@@ -1,0 +1,29 @@
+@import "variables";
+
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body{
+    font-family: $ff-space-grotesk;
+    font-size: $fs-body;
+    background: $c-white;
+}
+
+body::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url("../assets/images/bg-main-desktop.png");
+    background-size: cover;
+    width: 33.5%;
+    height: 100vh;
+    z-index: -99;
+    transition: $t-transition;
+}
