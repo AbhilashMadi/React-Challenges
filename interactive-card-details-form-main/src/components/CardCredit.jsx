@@ -1,15 +1,23 @@
 import React from 'react'
 
-function CardCredit() {
+function CardCredit({formData}) {
   return (
     <aside className="cardDeco">
       <div className="cardFront">
-        <span>{FormData.name || "Abhilash Kumar"}</span>
-        <span>{FormData.mm ?? "00"}/{FormData.yy ?? "00"}</span>
+        <span>{formData.number || "0000 0000 0000 0000"}</span>
+        <div>
+          <span>{formData.name || "Abhilash Kumar"}</span>
+          <span>
+            {formData.mm || "00"}/{formData.yy || "00"}
+          </span>
+        </div>
       </div>
-      <div className="cardBack"><span>{FormData.cvc ?? "000"}</span></div>
+
+      <div className="cardBack">
+        <span>{formData.cvc || "000"}</span>
+      </div>
     </aside>
-  )
+  );
 }
 
 export default CardCredit;
