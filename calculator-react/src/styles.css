@@ -1,0 +1,65 @@
+
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+#root{
+    background-image: linear-gradient(to right,rgb(42, 42, 255),rgb(82, 255, 82));
+    font-size: 1rem;
+    font-family: 'inter';
+    display: grid;
+    min-height: 100vh;
+    place-items: center;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(4,6rem);
+    grid-template-rows: minmax(7rem,auto) repeat(5,6rem);
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+}
+
+.span-two{
+    grid-column: span 2;
+}
+
+.output{
+    grid-column: 1/-1;
+    background-color: rgba(0,0,0,0.7);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding: 0.75rem;
+    word-break: break-all;
+    word-wrap: break-word;
+    color: rgba(255,255,255,1);
+}
+
+.output .previours-operand{
+    font-size: 1.5rem;
+}
+
+.output .current-operand{
+    font-size: 2.5rem;
+}
+
+
+.btn{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    border:none;
+    margin: 1px;
+}
+
+.btn:active{
+    scale: 0.98;
+}
+
+.btn:focus{
+    outline: none;
+}
